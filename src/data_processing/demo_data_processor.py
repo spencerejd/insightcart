@@ -12,7 +12,7 @@ class DemoDataProcessor:
 
     def __init__(
         self,
-        volume_multiplier_range: Tuple[float, float] = (1.2, 1.8),
+        volume_multiplier_range: Tuple[float, float] = (0.8, 4.2),
         time_shift_days: int = 30,
     ):
         """
