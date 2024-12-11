@@ -1,2 +1,21 @@
 venv
 exploration/
+.DS_Store
+sumup_draft/
+*.txt
+test_archive_public_processor.py
+
+# Sensitive configuration
+config/private_mappings.py
+config/demo_mappings.py
+.env
+.env.*
+credentials/
+credentials.py
+
+# Private transformation logic
+src/data_processing/private_processor.py
+src/data_processing/mapping-tests.py
+
+# Planning Documentation
+InsightCart MVP Plan - Google Docs.pdf
