@@ -1,5 +1,3 @@
-# insightcart
-
 # InsightCart
 
 InsightCart is a data analytics platform designed to help mobile market retailers understand their business performance through comprehensive transaction analysis. Built initially for a bakery business operating across multiple London markets, it processes SumUp POS data to provide actionable insights on sales patterns, product performance, and location-based trends.

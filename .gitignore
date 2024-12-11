@@ -1,5 +1,6 @@
 venv
 exploration/
+
 .DS_Store
 sumup_draft/
 *.txt
