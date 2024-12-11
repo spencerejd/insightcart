@@ -2,6 +2,7 @@ import streamlit as st
 from pathlib import Path
 from dashboard.data_loader import DataLoader
 from dashboard.config import Config
+from dashboard.image_helper import ImageHelper
 
 st.set_page_config(page_title="InsightCart Analytics", page_icon="🛍️", layout="wide")
 
@@ -20,7 +21,7 @@ def main():
         # Header section with logo and title
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image("https://via.placeholder.com/150", width=150)
+            st.image("images/logo_1.webp", width=150)
         with col2:
             st.title("InsightCart Analytics")
             st.subheader("Mobile Market Analytics Made Simple")
