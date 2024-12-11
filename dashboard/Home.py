@@ -40,7 +40,7 @@ def main():
 
         # Key Features section with icons
         st.markdown("### Key Features")
-        col1, col2, col3, col4 = st.columns(4)
+        col1, col2, col3, col4, col5 = st.columns(5)
 
         with col1:
             st.markdown("#### 📊 Financial Analytics")
@@ -66,6 +66,12 @@ def main():
                 "Understand peak trading hours and optimise your schedule for maximum revenue."
             )
 
+        with col5:
+            st.markdown("#### 🎯 Custom Analytics")
+            st.markdown(
+                "Create tailored views of your data with interactive charts focused on your specific needs."
+            )
+
         # Getting Started section
         st.markdown("### Getting Started")
         st.markdown(
@@ -76,6 +82,8 @@ def main():
         2. **Product Analytics**: Analyse product performance and inventory insights
         3. **Location Analytics**: Explore geographical performance data
         4. **Time Analytics**: Understand temporal patterns in your sales
+        5. **Custom Analytics**: Create personalised views focusing on revenue patterns, product performance, 
+           or time-of-day analysis with interactive charts you can modify to suit your needs
 
         Each page provides detailed visualisations and insights specific to that aspect of your business.
         """
